@@ -1,0 +1,18 @@
+
+@localURL = http://localhost:8000
+@currentURL = {{localURL}}
+###
+# @name 交易账户
+POST  {{currentURL}}/tool/test
+Authorization: test
+content-type: application/json
+
+{
+    "auto_trade": true,
+    "exchange": "huobi",
+    "access_key": "a",
+    "secret_key": "a",
+    "uid": "a",
+    "account_id_pro": "a",
+    "trade_password": "a"
+}
